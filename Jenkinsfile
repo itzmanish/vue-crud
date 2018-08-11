@@ -17,10 +17,10 @@ pipeline {
                 sh 'npm install'
             }
         }
-        stage('Test') {
+        stage('Start') {
             steps {
-                echo 'Testing...'
-                sh 'npm test'
+                echo 'Starting...'
+                sh 'npm start'
             }
         }
     }
